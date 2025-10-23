@@ -151,3 +151,167 @@ ul{
 .purple_btn{
     color:  #e73abb;
 }
+
+.photos_section{
+    padding: 0 2.5%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    background-image: url('../img/back_photo.png');
+    background-size: 90%;
+    background-position: 50%;
+}
+.photos_section img{
+    width: 20%;
+    object-fit: contain;
+    filter: saturate(0.2);
+}
+.photos_section img:nth-of-type(2){
+    width: 40%;
+    object-fit: contain;
+    filter: saturate(1);
+}
+.photos{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 50%;
+}
+.circles div:nth-of-type(2){
+    opacity: 100%;
+}
+
+
+.sales_section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    background-image: url('../img/shape_back_one.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sales_section h1{
+    margin: 50px;
+    font-size: 56px;
+}
+.sales{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    height: 60%;
+}
+.sale{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.sale h3{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.sale a{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+#ciber{
+    background-image: url('../img/ciber_back.png');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#ciberification_cs{
+    background-image: url('../img/cs_back.png');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#ciberification_dota{
+    background-image: url('../img/dota_back.jpg');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+#sales_pn{
+    background-image: url('../img/monday_back.jfif');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#group_vk{
+    background-image: url('../img/vk_back.jpg');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+#snackes{
+    background-image: url('../img/drink_back.jfif');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#hb{
+    background-image: url('../img/birthday_back.png');
+    background-color: #5a0144;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+}
+
